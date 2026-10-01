@@ -1,0 +1,17 @@
+[project]
+name = "classification-of-text"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mikaeelday", email = "mikaeelrais@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+classification-of-text = "classification_of_text:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
